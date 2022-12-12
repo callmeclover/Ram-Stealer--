@@ -4,5 +4,5 @@ function crasher() {
   window.open("opener.html")
   // a really bad idea
   crasher()
-}, 5000)
+}, 2500)
 }
