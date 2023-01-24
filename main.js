@@ -9,8 +9,8 @@ function crasher() {
 
 function crasherWINDOW() {
   setTimeout(() => {
-  window.open("openerWINDOW.html", "_blank", "popup=yes")
-  window.open("openerWINDOW.html", "_blank", "popup=yes")
+  window.open("openerWINDOW.html", "_blank", "width=" + window.outerWidth + ",height=" + window.outerHeight)
+  window.open("openerWINDOW.html", "_blank", "width=" + window.outerWidth + ",height=" + window.outerHeight)
   // a really bad idea
   crasherWINDOW()
 }, 2500)
